@@ -280,6 +280,7 @@ pcl_cluster_pub.publish(ros_cluster_cloud)
 ```
 
 In RViz, you can see the clusters by checking PointCloud2 on the left-side panel and then selecting the `/pcl_cluster` topic. From the robot camera's perspective, you would see the objects on the table with coloring showing where the clusters are. This is an example from `test2.world`:
+
 ![clustered objects](imgs/clusters_by_color.png)
 
 ## Extracting Features and Object Detection
